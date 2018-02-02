@@ -7,7 +7,7 @@ scanf("%d",&a);
 printf("\n Lower limit ");
 scanf("%d",&b);
 printf("\nEven numbers bw ul and ll are");
-for(i=a;i<=b;++i)
+for(i>=a;i<=b;++i)
 {
 o=i%2;
 if(o==0)
